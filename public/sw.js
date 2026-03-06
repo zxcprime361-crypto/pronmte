@@ -92,7 +92,7 @@
 //   event.notification.close();
 //   event.waitUntil(clients.openWindow("/"));
 // });
-const CACHE_NAME = "zxc-stream-v2.80";
+const CACHE_NAME = "zxc-stream-v2.81";
 const urlsToCache = [
   "/",
   "/manifest.json",
