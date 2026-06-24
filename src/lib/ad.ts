@@ -9,14 +9,14 @@ export function useSimpleAdLink(cooldownMs = 40000) {
       const timeSinceLastAd = now - Number.parseInt(lastAdTime);
       if (timeSinceLastAd < cooldownMs) {
         const remainingSeconds = Math.ceil(
-          (cooldownMs - timeSinceLastAd) / 1000
+          (cooldownMs - timeSinceLastAd) / 1000,
         );
         console.log(`Please wait ${remainingSeconds} more seconds`);
         return false;
       }
     }
 
-    const adLinks = `https://injusticebakery.com/pyepvwc4?key=3b8db78578d352ef8dfbf252e46812cd`;
+    const adLinks = `https://injusticebakery.com/v9b7j3eh?key=2e7312075b482451fb874186986774b4`;
 
     // old`https://snowmansphereabrasive.com/pyepvwc4?key=3b8db78578d352ef8dfbf252e46812cdhttps://turkstench.com/pyepvwc4?key=3b8db78578d352ef8dfbf252e46812cd`;
 

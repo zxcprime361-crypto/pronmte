@@ -6,7 +6,7 @@ export function getServers(id: string, season?: string, episode?: string) {
     {
       name: "Server 1",
       isRecommended: true,
-      sandboxSupport: true,
+      sandboxSupport: false,
       sublabel: "Main Server",
       description: "ZXC[STREAM] Main Server",
       movieLink: `https://cdn.zxcstream.xyz/player/movie/${id}?autoPlay=true`,
@@ -18,7 +18,7 @@ export function getServers(id: string, season?: string, episode?: string) {
       name: "Server 2",
       sublabel: "Main Backup Server",
       isRecommended: true,
-      sandboxSupport: true,
+      sandboxSupport: false,
       description: "Main Backup Server",
       movieLink: `https://cdn.zxcstream.xyz/embed/movie/${id}?autoPlay=true`,
       tvLink: `https://cdn.zxcstream.xyz/embed/tv/${id}/${season}/${episode}?autoPlay=true`,
